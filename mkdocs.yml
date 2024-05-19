@@ -1,16 +1,58 @@
 
-site_name: 'this is the site name'
+docs_dir: 'pages'
 
-docs_dir: 'ebook'
+
+# Project information
+
+site_name: eBook
+
+site_url: https://squidfunk.github.io/mkdocs-material/
+
+site_author: Martin Donath
+
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
+
+# Repository
+repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/squidfunk/mkdocs-material
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2023 Martin Donath
 
 theme:
 
-    name: readthedocs
+    ##
+    ## Find More Themes Here:
+    ##
+    ##     https://mkdocs.github.io/mkdocs-bootswatch/
+    ##
+    ## List of theme values:
+    ##
+    ##     mkdocs, readthedocs, material, cerulean, cosmo, 
+    ##     cyborg, darkly, flatly, journal, litera, lumen, lux,
+    ##     materia, minty, pulse, sandstone, simplex, slate, solar,
+    ##     spacelab, superhero, united, yeti 
+    ##
+        
+    name: material
+    
+   ## name: dracula
+    
+    ## 
+    ## you can alternate colors for the navigation header.
+    ##
+    ## Allowed values: primary (the default), dark, and light:
+    ##
+    
+    nav_style: primary
 
     highlightjs: true
 
     hljs_languages:
 
         - yaml
-
         - rust
+        
+extra_css: [custom-styling.css]

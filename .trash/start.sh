@@ -1,3 +1,0 @@
-reset
-clear
-mkdocs serve

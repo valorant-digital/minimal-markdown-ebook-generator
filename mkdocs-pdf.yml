@@ -1,6 +1,6 @@
-site_name: 'minimal markdown ebook'
+site_name: Fixing Your Resume For Developers & Engineers
 
-docs_dir: 'ebook'
+docs_dir: 'ebook-content'
 
 site_dir: 'web'
 
@@ -13,14 +13,13 @@ theme:
     hljs_languages:
 
         - yaml
-
         - rust
     
 plugins:
 
     - with-pdf:
     
-        output_path: ebook-minimal-markdown.pdf
+        output_path: ebook-fixing-your-resume-developers-engineers.pdf
         
         author:
         
@@ -34,12 +33,12 @@ plugins:
         
         #cover_title: TITLE TEXT
         
-        cover_subtitle: "cover_subtitle."
+        cover_subtitle: "Resume theory, strategies, templates, and techniques for creating resumes for developers & engineers."
         
         #custom_template_path: TEMPLATES PATH
         #
         
-        cover_logo: image-content/cover.png
+        cover_logo: image-content/cover-image.png
         
         ##toc_title: TOC TITLE TEXT
         #heading_shift: false

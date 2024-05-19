@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+
+    ebook:
+
+        container_name: ebook
+
+        image: softwareshinobi/ebook
+
+        build: 
+
+            context: .
+            
+            dockerfile: Dockerfile
+
+        ports:
+
+            - 8888:80
+
+        environment:
+
+            VIRTUAL_HOST: ebook.vidadeavion.online
+            
+            LETSENCRYPT_HOST: ebook.vidadeavion.online
+
