@@ -6,20 +6,20 @@ docs_dir: 'pages'
 
 site_name: eBook
 
-site_url: https://squidfunk.github.io/mkdocs-material/
+##site_url: https://squidfunk.github.io/mkdocs-material/
 
-site_author: Martin Donath
+##site_author: Martin Donath
 
-site_description: >-
-  Write your documentation in Markdown and create a professional static site in
-  minutes – searchable, customizable, in 60+ languages, for all devices
+##site_description: >-
+##  Write your documentation in Markdown and create a professional static site in
+##  minutes – searchable, customizable, in 60+ languages, for all devices
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+##repo_name: squidfunk/mkdocs-material
+##repo_url: https://github.com/squidfunk/mkdocs-material
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2023 Martin Donath
+##copyright: Copyright &copy; 2016 - 2023 Martin Donath
 
 theme:
 
@@ -35,10 +35,8 @@ theme:
     ##     materia, minty, pulse, sandstone, simplex, slate, solar,
     ##     spacelab, superhero, united, yeti 
     ##
-        
-    name: material
-    
-   ## name: dracula
+
+    name: readthedocs
     
     ## 
     ## you can alternate colors for the navigation header.

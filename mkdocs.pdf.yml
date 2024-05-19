@@ -1,8 +1,8 @@
 site_name: Fixing Your Resume For Developers & Engineers
 
-docs_dir: 'ebook-content'
+docs_dir: 'pages'
 
-site_dir: 'web'
+site_dir: 'site'
 
 theme:
 
@@ -19,7 +19,7 @@ plugins:
 
     - with-pdf:
     
-        output_path: ebook-fixing-your-resume-developers-engineers.pdf
+        output_path: ebook-minimal-generic-markdown-ebook.pdf
         
         author:
         

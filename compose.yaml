@@ -2,11 +2,11 @@ version: "3"
 
 services:
 
-    ebook:
+    minimal-generic-markdown-ebook:
 
-        container_name: ebook
+        container_name: minimal-generic-markdown-ebook
 
-        image: softwareshinobi/ebook
+        image: softwareshinobi/minimal-generic-markdown-ebook
 
         build: 
 
