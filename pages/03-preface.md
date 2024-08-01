@@ -1,7 +1,9 @@
 # Preface
 
-Developers & Engineers stand up!
+Ut eu sem integer vitae justo eget magna.
 
-May this eBook find you in good health.
+Nullam eget felis eget nunc lobortis mattis aliquam.
 
-May tips & tricks in this eBook useful to you.
+Elementum tempus egestas sed sed.
+
+Libero enim sed faucibus turpis in eu mi bibendum. 

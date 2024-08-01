@@ -1,15 +1,6 @@
-# ebooks situation
+# Minimal Markdown eBook
+
+![](pages/img/cover.png "Minimal Markdown eBook")
 
 a generic markdown ebook template.
 
-## generate ebook
-
---
-
-## run web server
-
---
-
-## export web server to html
-
---

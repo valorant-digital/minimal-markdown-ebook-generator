@@ -1,7 +1,18 @@
-# Fixing Your Resume For Developers & Engineers
+# About This eBook
 
-![](image-content/cover-image.png "Fixing Your Resume For Developers & Engineers")
+In vitae turpis massa sed elementum tempus. Id diam vel quam elementum pulvinar etiam non quam lacus. Purus faucibus ornare.
 
-Resume theory, strategies, templates, and techniques for creating resumes for developers & engineers.
+## Intended Audience
 
-By: Software Shinobi
+This eBook is for que gravida in fermentum et. Nunc sed id semper risus. Ut eu sem integer vitae justo eget magna. 
+
+## Intention Of This Book
+
+In vitae turpis massa sed elementum tempus.
+
+Id diam vel quam elementum pulvinar etiam non quam lacus.
+
+Purus faucibus ornare suspendisse sed nisi lacus. Libero enim sed faucibus turpis in eu mi bibendum. 
+
+Lacus luctus accumsan tortor posuere. Neque gravida in fermentum et.
+

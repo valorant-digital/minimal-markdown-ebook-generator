@@ -2,11 +2,11 @@ version: "3"
 
 services:
 
-    minimal-generic-markdown-ebook:
+    minimal-markdown-ebook:
 
-        container_name: minimal-generic-markdown-ebook
+        container_name: minimal-markdown-ebook
 
-        image: softwareshinobi/minimal-generic-markdown-ebook
+        image: softwareshinobi/minimal-markdown-ebook
 
         build: 
 
@@ -16,11 +16,11 @@ services:
 
         ports:
 
-            - 8888:80
+            - 8080:80
 
         environment:
 
-            VIRTUAL_HOST: ebook.vidadeavion.online
+            VIRTUAL_HOST: ebook.softwareshinobi.digital
             
-            LETSENCRYPT_HOST: ebook.vidadeavion.online
-
+            LETSENCRYPT_HOST: ebook.softwareshinobi.digital
+            

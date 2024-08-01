@@ -1,8 +1,9 @@
-site_name: Fixing Your Resume For Developers & Engineers
+
+site_name: "Minimal Markdown eBook"
 
 docs_dir: 'pages'
 
-site_dir: 'site'
+site_dir: 'export'
 
 theme:
 
@@ -13,61 +14,30 @@ theme:
     hljs_languages:
 
         - yaml
-        - rust
-    
+        
 plugins:
 
     - with-pdf:
     
-        output_path: ebook-minimal-generic-markdown-ebook.pdf
+        output_path: minimal-markdown-ebook.pdf
         
-        author:
+        author: "Software Shinobi"
         
-            "Software Shinobi"
-            
-        copyright: ""
-
         cover: true
         
-        back_cover: false
+        cover_title: "Minimal Markdown eBook"
         
-        #cover_title: TITLE TEXT
+        cover_subtitle: "This is an minimal ebook generated with markdown and mkdocs."
+                
+        cover_logo: img/cover.jpg
         
-        cover_subtitle: "Resume theory, strategies, templates, and techniques for creating resumes for developers & engineers."
+        toc_title: "Table Of Contents"
         
-        #custom_template_path: TEMPLATES PATH
-        #
+        toc_level: 2
+
+        copyright: "Minimal Markdown eBook"
+                
+        heading_shift: true
         
-        cover_logo: image-content/cover-image.png
-        
-        ##toc_title: TOC TITLE TEXT
-        #heading_shift: false
-        
-        toc_level:
-        
-            2
-            
         ordered_chapter_level: 0
         
-        #excludes_children:
-        #    - 'release-notes/:upgrading'
-        #    - 'release-notes/:changelog'
-        #
-        #exclude_pages:
-        #    - 'bugs/'
-        #    - 'appendix/contribute/'
-        #convert_iframe:
-        #    - src: IFRAME SRC
-        #      img: POSTER IMAGE URL
-        #      text: ALTERNATE TEXT
-        #    - src: ...
-        #two_columns_level: 3
-
-        #render_js: true
-        #headless_chrome_path: headless-chromium
-
-        #enabled_if_env: ENABLE_PDF_EXPORT
-
-        #debug_html: true
-        #show_anchors: true
-        #verbose: true

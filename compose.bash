@@ -4,7 +4,7 @@
 
 set -e
 
-set -v
+set -x
 
 ##
 
@@ -17,8 +17,3 @@ clear
 docker-compose down --remove-orphans
 
 docker-compose up --build -d
-
-##
-
-docker stats
-

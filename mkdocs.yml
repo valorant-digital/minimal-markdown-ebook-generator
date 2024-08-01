@@ -1,14 +1,15 @@
 
+##
+## Project information
+##
+
+site_name: "Minimal Markdown eBook"
+
 docs_dir: 'pages'
 
-
-# Project information
-
-site_name: eBook
+site_author: "Software Shinobi"
 
 ##site_url: https://squidfunk.github.io/mkdocs-material/
-
-##site_author: Martin Donath
 
 ##site_description: >-
 ##  Write your documentation in Markdown and create a professional static site in
@@ -51,6 +52,7 @@ theme:
     hljs_languages:
 
         - yaml
+
         - rust
-        
+
 extra_css: [custom-styling.css]
